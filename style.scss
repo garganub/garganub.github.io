@@ -288,8 +288,8 @@ footer {
 .landingDiv{
 	background-image: url(https://media.giphy.com/media/3oKIPaGG4PDQgQDFZe/giphy.gif);
 	background-repeat: repeat; 
-	height: 100vh;
-	width: 100vh; 
+	height: 300vh;
+	width: 300vh; 
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
