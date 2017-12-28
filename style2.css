@@ -176,6 +176,14 @@ input:focus{outline:none;}
     font-size: 50px; 
  }
 
+.fa-pencil-square-o:before{
+    font-size: 50px; 
+ }
+
+.fa-code:before{
+    font-size: 50px; 
+ }
+
 .socialIcon:hover{ color:#49afcd; text-shadow:0 0 20px white;}
 .twitter{ transition-delay:.5s,0; }
 .github{ transition-delay:1s,0; }
