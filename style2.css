@@ -161,7 +161,7 @@ input:focus{outline:none;}
   
 }
 
-i {
+/* i {
   width:33.33%;
   height:100px;
   float:left;
@@ -170,7 +170,11 @@ i {
   line-height:100px;
   transition:margin-top .5s,color .5s;
   cursor:pointer;
-}
+} */
+
+.fa-question-circle-o:before{
+    font-size: 50px; 
+ }
 
 .socialIcon:hover{ color:#49afcd; text-shadow:0 0 20px white;}
 .twitter{ transition-delay:.5s,0; }
