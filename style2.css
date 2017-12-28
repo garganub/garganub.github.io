@@ -9,7 +9,7 @@
 html,body{width:100%;height:100%;}
 
 body{         
-  background:url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif)no-repeat;
+  background:url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif')no-repeat;
   background-size:cover;
   font-family:junge,georgia;
   text-align:center;
