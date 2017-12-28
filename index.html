@@ -15,7 +15,8 @@ layout: bare
   
   setTimeout(function(){welcome.style.top='0';},delay);
   setTimeout(function(){subtext.style.bottom = '0%';},delay*2);
-  setTimeout(function(){subtext.style.bottom = '-100%';},delay*4); 
+  setTimeout(function(){subtext.style.bottom = '-100%';},delay*4);
+  setTimeout(function(){form.style.opacity='1';},delay*5);
   setTimeout(function(){follow.style.bottom='0%';},delay*6);
   setTimeout(
     function(){
@@ -24,9 +25,11 @@ layout: bare
       social[2].style.marginTop='0px';
     },delay*7
   ); 
+   
 });
   
 </script>
+
 <div class="content">
   <div class="welcomeText">
     <div class="welcome">
@@ -39,7 +42,12 @@ layout: bare
        </div>
     </div>
   </div>
-  
+  <div class="form">
+    <form action="" class="sub">
+      <input class='email' type="email">
+      <button class="button" value="Send">Subscribe</button>
+    </form>
+  </div>
   
   <div class="social">
     <div class="follow">
