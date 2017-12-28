@@ -160,6 +160,18 @@ input:focus{outline:none;}
   cursor:pointer;
   
 }
+
+i{
+  width:33.33%;
+  height:100px;
+  float:left;
+  margin-top:100px;
+  font-size:50px;
+  line-height:100px;
+  transition:margin-top .5s,color .5s;
+  cursor:pointer;
+}
+
 .socialIcon:hover{ color:#49afcd; text-shadow:0 0 20px white;}
 .twitter{ transition-delay:.5s,0; }
 .github{ transition-delay:1s,0; }
