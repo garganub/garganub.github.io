@@ -1,5 +1,6 @@
 @import url(http://weloveiconfonts.com/api/?family=brandico);
 @import url(https://fonts.googleapis.com/css?family=Junge);
+
 *{
   margin:0;
   padding:0;
@@ -16,6 +17,7 @@ body
   background-size:cover;
   font-family:junge,georgia;
   text-align:center;
+  background-color: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
   color: white; 
 }
 
